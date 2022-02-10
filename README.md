@@ -1,6 +1,6 @@
 # Lending Club Case Study
 > Using the concepts of EDA to decipher which types of customers default on a loan
-> Need to understand how consumer attributes and loan attributes influence the tendency of default.
+- Need to understand how consumer attributes and loan attributes influence the tendency of default.
 
 
 
