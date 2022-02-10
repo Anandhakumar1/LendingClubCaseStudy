@@ -1,5 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Using the concepts of EDA to decipher which types of customers default on a loan
+•	Need to understand how consumer attributes and loan attributes influence the tendency of default.
+
 
 
 ## Table of Contents
@@ -11,38 +13,38 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Loan Characteristics such as loan amount, term, purpose which shows the information about the loan that will help us in finding loan default.
+- Demographic Variables such as age, employment status, relationship status which shows the information about the borrower profile which is not useful for us.
+- Behavioural Variables such as next payment date, EMI, delinquency which shows the information which is updated after providing the loan which in our case is not useful as we need to decide whether we should approve the loan or not by default analysis.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- After analysing all the related features available in the dataset, we have come to an end, deducing the main driving features for the Lending Club Loan Default analysis:
+- The best driving features for the Loan default analysis are: term, grade, purpose, revol_util, int_rate, installment, annual_inc, funded_amnt_inv
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Excel
+- Python
+- numpy
+- matplotlib
+- plotly
+- pandas
+- seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This is done with the help of learnings form towards data science
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Anandhakumar1] - feel free to contact me!
 
 
 <!-- Optional -->
